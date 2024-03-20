@@ -49,5 +49,3 @@ while True:
             product = driver.find_element(By.ID, product_prefix + str(i))
             product.click()
             break
-
-time.sleep(55)
